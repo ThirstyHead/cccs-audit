@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WCAG 2.1 AA Audit — Colorado Community College System (https://cccs.edu)</title>
+<meta name="description" content="Automated weekly WCAG 2.1 AA accessibility audit results for https://cccs.edu, produced with axe-core.">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 940px;
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #212f3c; background: #fdfdfc;
+  }
+  header h1 { font-size: 1.7rem; margin: 0 0 .25rem; }
+  header .sub { color: #566573; margin: 0 0 1rem; }
+  .meta { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; color: #566573; font-size: .92rem; border-bottom: 1px solid #e3e7ea; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .75rem; margin-bottom: 1rem; }
+  .card { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: .9rem 1rem; }
+  .card .num { display: block; font-size: 1.9rem; font-weight: 700; line-height: 1.2; }
+  .card .lbl { color: #566573; font-size: .85rem; }
+  .sevcard { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: .6rem .8rem; display: flex; align-items: baseline; gap: .5rem; }
+  .sevcard .num { font-size: 1.4rem; font-weight: 700; }
+  .sevcard .lbl { color: #566573; font-size: .82rem; }
+  .severities { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: .5rem; margin-bottom: 1.5rem; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .75rem; }
+  .spark { width: 100%; max-width: 680px; height: auto; background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; }
+  .axis { font-size: 11px; fill: #7b8a8b; }
+  .delta { font-size: .9rem; font-weight: 600; }
+  .delta.up { color: #b03a2e; } .delta.down { color: #1e8449; }
+  .delta.flat, .delta.first { color: #7b8a8b; font-weight: 400; }
+  .page { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: 1rem 1.25rem 1.25rem; margin-bottom: 1rem; }
+  .page.failed { border-color: #f0b27a; background: #fef9f3; }
+  .page h3 { margin: 0 0 .25rem; font-size: 1.05rem; word-break: break-all; }
+  .page h3 .title { font-weight: 400; color: #7b8a8b; font-size: .9rem; }
+  .page h4 { margin: 1rem 0 .5rem; font-size: .95rem; }
+  .count { color: #7b8a8b; font-weight: 400; font-size: .85rem; }
+  .total { margin: 0 0 .5rem; color: #566573; }
+  .clean { color: #1e8449; font-weight: 600; }
+  .warn { color: #b9770e; }
+  table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid #eef1f2; vertical-align: top; }
+  th { color: #566573; font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; }
+  .targets { color: #7b8a8b; font-size: .82rem; word-break: break-all; max-width: 260px; }
+  code { background: #f4f6f7; padding: .1rem .35rem; border-radius: 4px; font-size: .85em; }
+  ul.inc { margin: .25rem 0 0; padding-left: 1.2rem; }
+  .note { color: #566573; font-size: .9rem; margin: .25rem 0 .75rem; }
+  table.pages { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  table.pages thead th {
+    position: sticky; top: 0; background: #fdfdfc; z-index: 1;
+    border-bottom: 2px solid #e3e7ea;
+  }
+  table.pages th.n, table.pages td.n { text-align: right; white-space: nowrap; }
+  table.pages td.n.bad { color: #b03a2e; font-weight: 700; }
+  table.pages td.pg { max-width: 0; }
+  table.pages td.pg a { word-break: break-all; }
+  table.pages .pwurl { display: block; color: #7b8a8b; font-size: .8rem; margin-top: .1rem; word-break: break-all; }
+  table.pages td.pg .err { word-break: break-all; }
+  table.pages td.links { white-space: nowrap; text-align: right; }
+  table.pages a.pgrep {
+    color: #2e86c1; text-decoration: none; font-weight: 600;
+    border: 1px solid #cfe6f5; background: #f4fafd; padding: .15rem .5rem; border-radius: 6px;
+  }
+  table.pages a.pgrep:hover { background: #e8f4fb; }
+  table.pages tr.bad td.pg a { color: #b03a2e; }
+  footer { margin-top: 2.5rem; border-top: 1px solid #e3e7ea; padding-top: 1rem; font-size: .85rem; color: #566573; }
+  footer a { color: #2e86c1; }
+  .datamenu { display: flex; flex-wrap: wrap; gap: 1rem; margin: .5rem 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>WCAG 2.1 AA Audit — Colorado Community College System</h1>
+  <p class="sub"><a href="https://cccs.edu">https://cccs.edu</a></p>
+</header>
+
+<div class="meta">
+  <span>Last audited: <strong>August 25, 2026</strong> (UTC)</span>
+  <span>Published runs: 1</span>
+  <span>Tooling: <a href="https://github.com/ThirstyHead/audit-cccs.edu">axe-core + Playwright</a>, run weekly via GitHub Actions</span>
+  <span><span class="delta first">first published run</span></span>
+</div>
+
+<h2>Latest results</h2>
+<div class="cards">
+  <div class="card"><span class="num">8</span><span class="lbl">Node-level violations</span></div>
+  <div class="card"><span class="num">51</span><span class="lbl">Pages audited</span></div>
+  <div class="card"><span class="num">743</span><span class="lbl">Need manual review</span></div>
+</div>
+<div class="severities">
+      <div class="sevcard" style="border-top:4px solid #b03a2e">
+        <span class="num">5</span>
+        <span class="lbl">Critical</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #ca6f1e">
+        <span class="num">3</span>
+        <span class="lbl">Serious</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #b7950b">
+        <span class="num">0</span>
+        <span class="lbl">Moderate</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #707b7c">
+        <span class="num">0</span>
+        <span class="lbl">Minor</span>
+      </div></div>
+
+<h2>Trend</h2>
+<p class="count">The trend chart appears once at least two runs have been published.</p>
+
+<h2>Pages</h2>
+<p class="note">Every page audited in this run. “Audit report” opens that page's full axe report — violations, needs-review, and passes, with node-level detail.</p>
+
+<table class="pages">
+  <thead><tr><th class="pg">Page</th><th class="n">Violations</th><th class="n">Needs review</th><th>Report</th></tr></thead>
+  <tbody>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/" rel="noopener">Home | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/</span></td>
+      <td class="n">0</td>
+      <td class="n">32</td>
+      <td class="links"><a class="pgrep" href="pages/home.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/about/" rel="noopener">About the System | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/about/</span></td>
+      <td class="n">0</td>
+      <td class="n">15</td>
+      <td class="links"><a class="pgrep" href="pages/about.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/about/be-an-advocate/" rel="noopener">Be an Advocate | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/about/be-an-advocate/</span></td>
+      <td class="n">0</td>
+      <td class="n">29</td>
+      <td class="links"><a class="pgrep" href="pages/about-be-an-advocate.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/about/governance/" rel="noopener">Board &amp; Governance | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/about/governance/</span></td>
+      <td class="n">0</td>
+      <td class="n">7</td>
+      <td class="links"><a class="pgrep" href="pages/about-governance.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/about/governance/internal-audit/" rel="noopener">Internal Audit | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/about/governance/internal-audit/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/about-governance-internal-audit.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/about/governance/internal-audit/concerns-hotline/" rel="noopener">Concerns Hotline | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/about/governance/internal-audit/concerns-hotline/</span></td>
+      <td class="n">0</td>
+      <td class="n">9</td>
+      <td class="links"><a class="pgrep" href="pages/about-governance-internal-audit-concerns-hotline.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/about/leadership/" rel="noopener">Leadership | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/about/leadership/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/about-leadership.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/about/leadership/dr-marielena-desanctis/" rel="noopener">Dr. Marielena DeSanctis | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/about/leadership/dr-marielena-desanctis/</span></td>
+      <td class="n">0</td>
+      <td class="n">13</td>
+      <td class="links"><a class="pgrep" href="pages/about-leadership-dr-marielena-desanctis.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/about/mission-vision-and-values/" rel="noopener">Mission, Vision, and Values | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/about/mission-vision-and-values/</span></td>
+      <td class="n">0</td>
+      <td class="n">13</td>
+      <td class="links"><a class="pgrep" href="pages/about-mission-vision-and-values.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/about/public-legislative-affairs/overview/" rel="noopener">Office of Public &amp; Legislative Affairs | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/about/public-legislative-affairs/overview/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/about-public-legislative-affairs-overview.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/about/why-cccs-matters/" rel="noopener">Why CCCS Matters | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/about/why-cccs-matters/</span></td>
+      <td class="n">0</td>
+      <td class="n">16</td>
+      <td class="links"><a class="pgrep" href="pages/about-why-cccs-matters.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/academic-student-affairs/" rel="noopener">Academic &amp; Student Affairs | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/academic-student-affairs/</span></td>
+      <td class="n">0</td>
+      <td class="n">13</td>
+      <td class="links"><a class="pgrep" href="pages/academic-student-affairs.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/campus-spotlights/congratulations-to-arapahoe-community-college-on-colorados-new-nasa-aerospace-workforce-hub/" rel="noopener">Congratulations to Arapahoe Community College on Colorado’s New NASA Aerospace Workforce Hub | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/campus-spotlights/congratulations-to-arapahoe-community-college-on-colorados-new-nasa-aerospace-workforce-hub/</span></td>
+      <td class="n">0</td>
+      <td class="n">21</td>
+      <td class="links"><a class="pgrep" href="pages/campus-spotlights-congratulations-to-arapahoe-community-college-on-colorados-new-nasa-aerospace-workforce-hub.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/category/campus-spotlights/" rel="noopener">Campus Spotlights | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/category/campus-spotlights/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/category-campus-spotlights.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/category/cccs-news/" rel="noopener">CCCS News | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/category/cccs-news/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/category-cccs-news.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/category/events/" rel="noopener">Events | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/category/events/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/category-events.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/category/workforce-development/" rel="noopener">Workforce Development | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/category/workforce-development/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/category-workforce-development.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/cccs-internal/" rel="noopener">Colorado Community College System Internal Staff Resources</a> <span class="pwurl">https://cccs.edu/cccs-internal/</span></td>
+      <td class="n">0</td>
+      <td class="n">10</td>
+      <td class="links"><a class="pgrep" href="pages/cccs-internal.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/cccs-news/connecting-skills-and-opportunity-how-cte-is-evolving-across-colorado/" rel="noopener">Connecting Skills and Opportunity: How CTE Is Evolving Across Colorado | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/cccs-news/connecting-skills-and-opportunity-how-cte-is-evolving-across-colorado/</span></td>
+      <td class="n">0</td>
+      <td class="n">24</td>
+      <td class="links"><a class="pgrep" href="pages/cccs-news-connecting-skills-and-opportunity-how-cte-is-evolving-across-colorado.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/cccs-news/meeting-the-moment-how-community-colleges-are-evolving-for-colorados-future/" rel="noopener">Meeting the Moment: How Community Colleges Are Evolving for Colorado’s Future | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/cccs-news/meeting-the-moment-how-community-colleges-are-evolving-for-colorados-future/</span></td>
+      <td class="n">0</td>
+      <td class="n">24</td>
+      <td class="links"><a class="pgrep" href="pages/cccs-news-meeting-the-moment-how-community-colleges-are-evolving-for-colorados-future.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/contact/" rel="noopener">Contact | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/contact/</span></td>
+      <td class="n">0</td>
+      <td class="n">13</td>
+      <td class="links"><a class="pgrep" href="pages/contact.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/data/" rel="noopener">Data &amp; Reports | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/data/</span></td>
+      <td class="n">0</td>
+      <td class="n">14</td>
+      <td class="links"><a class="pgrep" href="pages/data.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/data/colleges/" rel="noopener">Colleges Data | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/data/colleges/</span></td>
+      <td class="n">0</td>
+      <td class="n">21</td>
+      <td class="links"><a class="pgrep" href="pages/data-colleges.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/data/special-reports/" rel="noopener">Special Reports | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/data/special-reports/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/data-special-reports.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/data/systemwide/" rel="noopener">Systemwide Data | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/data/systemwide/</span></td>
+      <td class="n">0</td>
+      <td class="n">19</td>
+      <td class="links"><a class="pgrep" href="pages/data-systemwide.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/digital-accessibility/" rel="noopener">Website Accessibility Statement | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/digital-accessibility/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/digital-accessibility.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/employment-verification/" rel="noopener">Employment Verification | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/employment-verification/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/employment-verification.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/foundation/" rel="noopener">Foundation Home | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/foundation/</span></td>
+      <td class="n">0</td>
+      <td class="n">16</td>
+      <td class="links"><a class="pgrep" href="pages/foundation.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/foundation/give/give-online/" rel="noopener">Give Online | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/foundation/give/give-online/</span></td>
+      <td class="n">0</td>
+      <td class="n">40</td>
+      <td class="links"><a class="pgrep" href="pages/foundation-give-give-online.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://cccs.edu/from-classroom-to-career/" rel="noopener">From Classroom to Career | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/from-classroom-to-career/</span></td>
+      <td class="n bad">3</td>
+      <td class="n">21</td>
+      <td class="links"><a class="pgrep" href="pages/from-classroom-to-career.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/lowry/" rel="noopener">Lowry Conference Center | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/lowry/</span></td>
+      <td class="n">0</td>
+      <td class="n">11</td>
+      <td class="links"><a class="pgrep" href="pages/lowry.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/media/" rel="noopener">Media | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/media/</span></td>
+      <td class="n">0</td>
+      <td class="n">21</td>
+      <td class="links"><a class="pgrep" href="pages/media.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/media/about-the-cccs-brand/" rel="noopener">About the CCCS Brand | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/media/about-the-cccs-brand/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/media-about-the-cccs-brand.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/news/" rel="noopener">News | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/news/</span></td>
+      <td class="n">0</td>
+      <td class="n">16</td>
+      <td class="links"><a class="pgrep" href="pages/news.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/non-discrimination-statement/" rel="noopener">Non-discrimination Statement | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/non-discrimination-statement/</span></td>
+      <td class="n">0</td>
+      <td class="n">7</td>
+      <td class="links"><a class="pgrep" href="pages/non-discrimination-statement.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/our-colleges/" rel="noopener">Colleges | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/our-colleges/</span></td>
+      <td class="n">0</td>
+      <td class="n">12</td>
+      <td class="links"><a class="pgrep" href="pages/our-colleges.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/our-colleges/college-presidents-of-cccs/" rel="noopener">College Presidents | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/our-colleges/college-presidents-of-cccs/</span></td>
+      <td class="n">0</td>
+      <td class="n">9</td>
+      <td class="links"><a class="pgrep" href="pages/our-colleges-college-presidents-of-cccs.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://cccs.edu/our-colleges/colleges/" rel="noopener">Our 13 Colleges | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/our-colleges/colleges/</span></td>
+      <td class="n bad">2</td>
+      <td class="n">25</td>
+      <td class="links"><a class="pgrep" href="pages/our-colleges-colleges.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/our-colleges/colleges/transfer-programs/" rel="noopener">Transfer Programs | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/our-colleges/colleges/transfer-programs/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/our-colleges-colleges-transfer-programs.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/our-colleges/making-college-affordable/" rel="noopener">Making College Affordable | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/our-colleges/making-college-affordable/</span></td>
+      <td class="n">0</td>
+      <td class="n">24</td>
+      <td class="links"><a class="pgrep" href="pages/our-colleges-making-college-affordable.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/our-colleges/understanding-degrees-certificates/" rel="noopener">Understanding Degrees &amp; Certificates | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/our-colleges/understanding-degrees-certificates/</span></td>
+      <td class="n">0</td>
+      <td class="n">19</td>
+      <td class="links"><a class="pgrep" href="pages/our-colleges-understanding-degrees-certificates.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/privacy-policy/" rel="noopener">Privacy Policy | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/privacy-policy/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/privacy-policy.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/public-records-request/" rel="noopener">Public Records Request | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/public-records-request/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/public-records-request.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/strategic-plan/" rel="noopener">Strategic Plan | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/strategic-plan/</span></td>
+      <td class="n">0</td>
+      <td class="n">15</td>
+      <td class="links"><a class="pgrep" href="pages/strategic-plan.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/workforce-development/" rel="noopener">Workforce Development | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/workforce-development/</span></td>
+      <td class="n">0</td>
+      <td class="n">23</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-development.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/workforce-development/contact/" rel="noopener">Contact Workforce Development Team | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/workforce-development/contact/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-development-contact.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/workforce-development/create-an-apprenticeship/" rel="noopener">Create an Apprenticeship | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/workforce-development/create-an-apprenticeship/</span></td>
+      <td class="n">0</td>
+      <td class="n">13</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-development-create-an-apprenticeship.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/workforce-development/employer-resources/" rel="noopener">Employer Grant Programs | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/workforce-development/employer-resources/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-development-employer-resources.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/workforce-development/post-job-or-internship/" rel="noopener">Post a Job or Internship | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/workforce-development/post-job-or-internship/</span></td>
+      <td class="n">0</td>
+      <td class="n">9</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-development-post-job-or-internship.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://cccs.edu/workforce-development/workforce-programs/" rel="noopener">Workforce Programs | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/workforce-development/workforce-programs/</span></td>
+      <td class="n bad">3</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-development-workforce-programs.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://cccs.edu/workforce-pell/" rel="noopener">Workforce Pell | Colorado Community College System</a> <span class="pwurl">https://cccs.edu/workforce-pell/</span></td>
+      <td class="n">0</td>
+      <td class="n">33</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-pell.html">Audit report</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Data</h2>
+<div class="datamenu">
+  <a href="latest.json">latest.json</a>
+  <a href="history.json">history.json</a>
+  <a href="https://github.com/ThirstyHead/cccs-audit/blob/main/reports/axe-2026-08-25T06-17-07-103Z.json">Raw report (latest)</a>
+  <a href="https://github.com/ThirstyHead/cccs-audit/tree/main/reports">All raw reports</a>
+</div>
+
+<footer>
+  <p><strong>About this audit.</strong> Results are produced automatically by
+  <a href="https://github.com/dequelabs/axe-core">axe-core</a> (Deque) against the WCAG 2.1 A/AA rule set,
+  on a weekly schedule, by the open-source tooling in
+  <a href="https://github.com/ThirstyHead/audit-cccs.edu">ThirstyHead/audit-cccs.edu</a>.
+  Automated tooling detects only a subset of accessibility failures and does not replace
+  manual or assistive-technology testing. “Needs manual review” items are results axe
+  could not determine automatically.</p>
+  <p>Generated 2026-08-25T06:17:07.803Z · <a href="https://thirstyhead.com/cccs-audit/">thirstyhead.com/cccs-audit/</a></p>
+</footer>
+</body>
+</html>
