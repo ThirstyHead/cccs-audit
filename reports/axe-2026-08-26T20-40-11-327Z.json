@@ -1,0 +1,2130 @@
+{
+  "generated": "2026-08-26T20:40:11.327Z",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "pages": [
+    {
+      "url": "https://cccs.edu/",
+      "title": "Home | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/",
+      "slug": "home",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 31,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".is-type-donate"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/about/",
+      "title": "About the System | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/about/",
+      "slug": "about",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 14,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".is-type-content-feature"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/about/be-an-advocate/",
+      "title": "Be an Advocate | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/about/be-an-advocate/",
+      "slug": "about-be-an-advocate",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 28,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".is-type-donate"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/about/governance/",
+      "title": "Board & Governance | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/about/governance/",
+      "slug": "about-governance",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            "strong",
+            "a[data-type=\"strategic_plan\"]",
+            "a[aria-label=\"Home\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/about/governance/internal-audit/",
+      "title": "Internal Audit | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/about/governance/internal-audit/",
+      "slug": "about-governance-internal-audit",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size.has-text-align-center.wp-block-paragraph > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/about/governance/internal-audit/concerns-hotline/",
+      "title": "Concerns Hotline | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/about/governance/internal-audit/concerns-hotline/",
+      "slug": "about-governance-internal-audit-concerns-hotline",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 8,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/about/leadership/",
+      "title": "Leadership | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/about/leadership/",
+      "slug": "about-leadership",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/about/leadership/dr-marielena-desanctis/",
+      "title": "Dr. Marielena DeSanctis | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/about/leadership/dr-marielena-desanctis/",
+      "slug": "about-leadership-dr-marielena-desanctis",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size.has-text-align-center.wp-block-paragraph > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/about/mission-vision-and-values/",
+      "title": "Mission, Vision, and Values | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/about/mission-vision-and-values/",
+      "slug": "about-mission-vision-and-values",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center.has-large-font-size.wp-block-paragraph > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/about/public-legislative-affairs/overview/",
+      "title": "Office of Public & Legislative Affairs | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/about/public-legislative-affairs/overview/",
+      "slug": "about-public-legislative-affairs-overview",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/about/why-cccs-matters/",
+      "title": "Why CCCS Matters | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/about/why-cccs-matters/",
+      "slug": "about-why-cccs-matters",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 15,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/academic-student-affairs/",
+      "title": "Academic & Student Affairs | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/academic-student-affairs/",
+      "slug": "academic-student-affairs",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/campus-spotlights/congratulations-to-arapahoe-community-college-on-colorados-new-nasa-aerospace-workforce-hub/",
+      "title": "Congratulations to Arapahoe Community College on Colorado’s New NASA Aerospace Workforce Hub | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/campus-spotlights/congratulations-to-arapahoe-community-college-on-colorados-new-nasa-aerospace-workforce-hub/",
+      "slug": "campus-spotlights-congratulations-to-arapahoe-community-college-on-colorados-new-nasa-aerospace-workforce-hub",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/category/campus-spotlights/",
+      "title": "Campus Spotlights | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/category/campus-spotlights/",
+      "slug": "category-campus-spotlights",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/category/cccs-news/",
+      "title": "CCCS News | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/category/cccs-news/",
+      "slug": "category-cccs-news",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/category/events/",
+      "title": "Events | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/category/events/",
+      "slug": "category-events",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/category/workforce-development/",
+      "title": "Workforce Development | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/category/workforce-development/",
+      "slug": "category-workforce-development",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/cccs-internal/",
+      "title": "Colorado Community College System Internal Staff Resources",
+      "finalUrl": "https://cccs.edu/cccs-internal/",
+      "slug": "cccs-internal",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 9,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/cccs-news/connecting-skills-and-opportunity-how-cte-is-evolving-across-colorado/",
+      "title": "Connecting Skills and Opportunity: How CTE Is Evolving Across Colorado | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/cccs-news/connecting-skills-and-opportunity-how-cte-is-evolving-across-colorado/",
+      "slug": "cccs-news-connecting-skills-and-opportunity-how-cte-is-evolving-across-colorado",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 23,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/cccs-news/meeting-the-moment-how-community-colleges-are-evolving-for-colorados-future/",
+      "title": "Meeting the Moment: How Community Colleges Are Evolving for Colorado’s Future | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/cccs-news/meeting-the-moment-how-community-colleges-are-evolving-for-colorados-future/",
+      "slug": "cccs-news-meeting-the-moment-how-community-colleges-are-evolving-for-colorados-future",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 23,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/contact/",
+      "title": "Contact | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/contact/",
+      "slug": "contact",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center.has-large-font-size.wp-block-paragraph > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/data/",
+      "title": "Data & Reports | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/data/",
+      "slug": "data",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 13,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/data/colleges/",
+      "title": "Colleges Data | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/data/colleges/",
+      "slug": "data-colleges",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/data/special-reports/",
+      "title": "Special Reports | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/data/special-reports/",
+      "slug": "data-special-reports",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/data/systemwide/",
+      "title": "Systemwide Data | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/data/systemwide/",
+      "slug": "data-systemwide",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 18,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/digital-accessibility/",
+      "title": "Website Accessibility Statement | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/digital-accessibility/",
+      "slug": "digital-accessibility",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/employment-verification/",
+      "title": "Employment Verification | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/employment-verification/",
+      "slug": "employment-verification",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/foundation/",
+      "title": "Foundation Home | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/foundation/",
+      "slug": "foundation",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 15,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/foundation/give/give-online/",
+      "title": "Give Online | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/foundation/give/give-online/",
+      "slug": "foundation-give-give-online",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 39,
+          "firstTargets": [
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]",
+            "#fsSection51449998 > .StyledSectionHeader-sc-14xa0k7-0.catfet.fsSectionHeader > .StyledSectionHeading-sc-hpb4sc-0.ebOKNf.fsSectionHeading"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/from-classroom-to-career/",
+      "title": "From Classroom to Career | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/from-classroom-to-career/",
+      "slug": "from-classroom-to-career",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1330\"] .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1330\"] #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1330\"] .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 19,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        },
+        {
+          "id": "video-caption",
+          "impact": "critical",
+          "help": "<video> elements must have captions",
+          "wcag": [
+            "wcag2a",
+            "wcag122"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#bg-row-video-1114024_4b7c26-de"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/lowry/",
+      "title": "Lowry Conference Center | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/lowry/",
+      "slug": "lowry",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 11,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/media/",
+      "title": "Media | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/media/",
+      "slug": "media",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/media/about-the-cccs-brand/",
+      "title": "About the CCCS Brand | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/media/about-the-cccs-brand/",
+      "slug": "media-about-the-cccs-brand",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/news/",
+      "title": "News | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/news/",
+      "slug": "news",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 15,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/non-discrimination-statement/",
+      "title": "Non-discrimination Statement | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/non-discrimination-statement/",
+      "slug": "non-discrimination-statement",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]",
+            "a[aria-label=\"Home\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/our-colleges/",
+      "title": "Colleges | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/our-colleges/",
+      "slug": "our-colleges",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 11,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/our-colleges/college-presidents-of-cccs/",
+      "title": "College Presidents | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/our-colleges/college-presidents-of-cccs/",
+      "slug": "our-colleges-college-presidents-of-cccs",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 8,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/our-colleges/colleges/",
+      "title": "Our 13 Colleges | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/our-colleges/colleges/",
+      "slug": "our-colleges-colleges",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1330\"] .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1330\"] #movie_player"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 24,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/our-colleges/colleges/transfer-programs/",
+      "title": "Transfer Programs | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/our-colleges/colleges/transfer-programs/",
+      "slug": "our-colleges-colleges-transfer-programs",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/our-colleges/making-college-affordable/",
+      "title": "Making College Affordable | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/our-colleges/making-college-affordable/",
+      "slug": "our-colleges-making-college-affordable",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 23,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".kt-inside-inner-col > .has-large-font-size.wp-block-paragraph > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/our-colleges/understanding-degrees-certificates/",
+      "title": "Understanding Degrees & Certificates | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/our-colleges/understanding-degrees-certificates/",
+      "slug": "our-colleges-understanding-degrees-certificates",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 18,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size.has-text-align-center.wp-block-paragraph > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/privacy-policy/",
+      "title": "Privacy Policy | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/privacy-policy/",
+      "slug": "privacy-policy",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/public-records-request/",
+      "title": "Public Records Request | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/public-records-request/",
+      "slug": "public-records-request",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/strategic-plan/",
+      "title": "Strategic Plan | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/strategic-plan/",
+      "slug": "strategic-plan",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 13,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-id=\"55488\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        },
+        {
+          "id": "video-caption",
+          "impact": "critical",
+          "help": "<video> elements must have captions",
+          "wcag": [
+            "wcag2a",
+            "wcag122"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#bg-row-video-55488_541a21-8a"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/workforce-development/",
+      "title": "Workforce Development | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/workforce-development/",
+      "slug": "workforce-development",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 22,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/workforce-development/contact/",
+      "title": "Contact Workforce Development Team | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/workforce-development/contact/",
+      "slug": "workforce-development-contact",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            "strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/workforce-development/create-an-apprenticeship/",
+      "title": "Create an Apprenticeship | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/workforce-development/create-an-apprenticeship/",
+      "slug": "workforce-development-create-an-apprenticeship",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/workforce-development/employer-resources/",
+      "title": "Employer Grant Programs | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/workforce-development/employer-resources/",
+      "slug": "workforce-development-employer-resources",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/workforce-development/post-job-or-internship/",
+      "title": "Post a Job or Internship | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/workforce-development/post-job-or-internship/",
+      "slug": "workforce-development-post-job-or-internship",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 8,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/workforce-development/workforce-programs/",
+      "title": "Workforce Programs | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/workforce-development/workforce-programs/",
+      "slug": "workforce-development-workforce-programs",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1330\"] .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1330\"] #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1330\"] .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-text-align-center > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://cccs.edu/workforce-pell/",
+      "title": "Workforce Pell | Colorado Community College System",
+      "finalUrl": "https://cccs.edu/workforce-pell/",
+      "slug": "workforce-pell",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 32,
+          "firstTargets": [
+            "#cmplz-message-1-optout",
+            ".has-large-font-size > strong",
+            "a[data-type=\"strategic_plan\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".dialog__subscribe"
+          ]
+        }
+      ]
+    }
+  ],
+  "pagesHtml": {
+    "https://cccs.edu/": "pages/home.html",
+    "https://cccs.edu/about/": "pages/about.html",
+    "https://cccs.edu/about/be-an-advocate/": "pages/about-be-an-advocate.html",
+    "https://cccs.edu/about/governance/": "pages/about-governance.html",
+    "https://cccs.edu/about/governance/internal-audit/": "pages/about-governance-internal-audit.html",
+    "https://cccs.edu/about/governance/internal-audit/concerns-hotline/": "pages/about-governance-internal-audit-concerns-hotline.html",
+    "https://cccs.edu/about/leadership/": "pages/about-leadership.html",
+    "https://cccs.edu/about/leadership/dr-marielena-desanctis/": "pages/about-leadership-dr-marielena-desanctis.html",
+    "https://cccs.edu/about/mission-vision-and-values/": "pages/about-mission-vision-and-values.html",
+    "https://cccs.edu/about/public-legislative-affairs/overview/": "pages/about-public-legislative-affairs-overview.html",
+    "https://cccs.edu/about/why-cccs-matters/": "pages/about-why-cccs-matters.html",
+    "https://cccs.edu/academic-student-affairs/": "pages/academic-student-affairs.html",
+    "https://cccs.edu/campus-spotlights/congratulations-to-arapahoe-community-college-on-colorados-new-nasa-aerospace-workforce-hub/": "pages/campus-spotlights-congratulations-to-arapahoe-community-college-on-colorados-new-nasa-aerospace-workforce-hub.html",
+    "https://cccs.edu/category/campus-spotlights/": "pages/category-campus-spotlights.html",
+    "https://cccs.edu/category/cccs-news/": "pages/category-cccs-news.html",
+    "https://cccs.edu/category/events/": "pages/category-events.html",
+    "https://cccs.edu/category/workforce-development/": "pages/category-workforce-development.html",
+    "https://cccs.edu/cccs-internal/": "pages/cccs-internal.html",
+    "https://cccs.edu/cccs-news/connecting-skills-and-opportunity-how-cte-is-evolving-across-colorado/": "pages/cccs-news-connecting-skills-and-opportunity-how-cte-is-evolving-across-colorado.html",
+    "https://cccs.edu/cccs-news/meeting-the-moment-how-community-colleges-are-evolving-for-colorados-future/": "pages/cccs-news-meeting-the-moment-how-community-colleges-are-evolving-for-colorados-future.html",
+    "https://cccs.edu/contact/": "pages/contact.html",
+    "https://cccs.edu/data/": "pages/data.html",
+    "https://cccs.edu/data/colleges/": "pages/data-colleges.html",
+    "https://cccs.edu/data/special-reports/": "pages/data-special-reports.html",
+    "https://cccs.edu/data/systemwide/": "pages/data-systemwide.html",
+    "https://cccs.edu/digital-accessibility/": "pages/digital-accessibility.html",
+    "https://cccs.edu/employment-verification/": "pages/employment-verification.html",
+    "https://cccs.edu/foundation/": "pages/foundation.html",
+    "https://cccs.edu/foundation/give/give-online/": "pages/foundation-give-give-online.html",
+    "https://cccs.edu/from-classroom-to-career/": "pages/from-classroom-to-career.html",
+    "https://cccs.edu/lowry/": "pages/lowry.html",
+    "https://cccs.edu/media/": "pages/media.html",
+    "https://cccs.edu/media/about-the-cccs-brand/": "pages/media-about-the-cccs-brand.html",
+    "https://cccs.edu/news/": "pages/news.html",
+    "https://cccs.edu/non-discrimination-statement/": "pages/non-discrimination-statement.html",
+    "https://cccs.edu/our-colleges/": "pages/our-colleges.html",
+    "https://cccs.edu/our-colleges/college-presidents-of-cccs/": "pages/our-colleges-college-presidents-of-cccs.html",
+    "https://cccs.edu/our-colleges/colleges/": "pages/our-colleges-colleges.html",
+    "https://cccs.edu/our-colleges/colleges/transfer-programs/": "pages/our-colleges-colleges-transfer-programs.html",
+    "https://cccs.edu/our-colleges/making-college-affordable/": "pages/our-colleges-making-college-affordable.html",
+    "https://cccs.edu/our-colleges/understanding-degrees-certificates/": "pages/our-colleges-understanding-degrees-certificates.html",
+    "https://cccs.edu/privacy-policy/": "pages/privacy-policy.html",
+    "https://cccs.edu/public-records-request/": "pages/public-records-request.html",
+    "https://cccs.edu/strategic-plan/": "pages/strategic-plan.html",
+    "https://cccs.edu/workforce-development/": "pages/workforce-development.html",
+    "https://cccs.edu/workforce-development/contact/": "pages/workforce-development-contact.html",
+    "https://cccs.edu/workforce-development/create-an-apprenticeship/": "pages/workforce-development-create-an-apprenticeship.html",
+    "https://cccs.edu/workforce-development/employer-resources/": "pages/workforce-development-employer-resources.html",
+    "https://cccs.edu/workforce-development/post-job-or-internship/": "pages/workforce-development-post-job-or-internship.html",
+    "https://cccs.edu/workforce-development/workforce-programs/": "pages/workforce-development-workforce-programs.html",
+    "https://cccs.edu/workforce-pell/": "pages/workforce-pell.html"
+  }
+}
