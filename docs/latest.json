@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-07T11:09:02.479Z",
+  "siteGenerated": "2026-09-14T11:17:08.398Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-cccs.edu",
   "report": {
-    "generated": "2026-09-07T11:09:01.868Z",
+    "generated": "2026-09-14T11:17:07.519Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -26,11 +26,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 29,
+            "nodes": 31,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              "h1",
-              ".wp-block-cccs-header-homepage__secondary > .h5"
+              ".has-large-font-size > strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -64,11 +64,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 12,
+            "nodes": 14,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              ".wp-block-cccs-header > p",
-              "h1"
+              "strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -292,11 +292,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 12,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              ".wp-block-cccs-quote__attribution > strong",
-              ".wp-block-cccs-quote__attribution > span"
+              ".has-large-font-size.has-text-align-center.wp-block-paragraph > strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -330,11 +330,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 12,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              ".has-white-color",
-              ".has-text-align-center.is-style-lead.wp-block-paragraph"
+              ".has-text-align-center.has-large-font-size.wp-block-paragraph > strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -368,11 +368,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 5,
+            "nodes": 7,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              "a[aria-label=\"Home\"]",
-              "a[href$=\"lowry/\"]"
+              ".has-text-align-center > strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -406,11 +406,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 13,
+            "nodes": 15,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              ".alignment-right.wp-block-cccs-core-content-feature:nth-child(6) > .wp-block-group > p",
-              ".wp-block-cccs-cover-feature__content > .is-style-default.has-text-align-center.wp-block-heading > em"
+              ".has-large-font-size > strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -444,11 +444,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 12,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              "h1",
-              ".wp-block-cccs-header-homepage__secondary > .h5"
+              ".has-large-font-size > strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -482,11 +482,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 18,
+            "nodes": 20,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              ".wp-block-cccs-quote__attribution > strong",
-              ".wp-block-cccs-quote__attribution > span"
+              ".has-large-font-size > strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -520,11 +520,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 5,
+            "nodes": 7,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              "a[aria-label=\"Home\"]",
-              "a[href$=\"lowry/\"]"
+              "strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -558,11 +558,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 5,
+            "nodes": 7,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              "a[aria-label=\"Home\"]",
-              "a[href$=\"lowry/\"]"
+              "strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -596,11 +596,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 5,
+            "nodes": 7,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              "a[aria-label=\"Home\"]",
-              "a[href$=\"lowry/\"]"
+              "strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -672,11 +672,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 9,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              ".wp-block-cccs-header > p",
-              "h1"
+              ".has-text-align-center > strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -900,11 +900,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 5,
+            "nodes": 7,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              "a[aria-label=\"Home\"]",
-              "a[href$=\"lowry/\"]"
+              ".has-text-align-center > strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -938,11 +938,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 16,
+            "nodes": 18,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              ".h3",
-              ".post-849181 > h3 > a[target=\"_self\"]"
+              "strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -976,11 +976,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 5,
+            "nodes": 7,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              "a[aria-label=\"Home\"]",
-              "a[href$=\"lowry/\"]"
+              "strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -1014,11 +1014,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 5,
+            "nodes": 7,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              "a[aria-label=\"Home\"]",
-              "a[href$=\"lowry/\"]"
+              ".has-text-align-center > strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -1476,7 +1476,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              ".lazyloaded .ytmVideoInfoVideoTitle"
+              "iframe[width=\"1330\"] .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -1490,7 +1490,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              ".lazyloaded #movie_player"
+              "iframe[width=\"1330\"] #movie_player"
             ]
           }
         ],
@@ -1504,11 +1504,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 22,
+            "nodes": 24,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              ".bg-gradient.wp-block-cccs-cover-feature.alignfull:nth-child(4) > .wp-block-cccs-cover-feature__content.is-layout-flow.alignwide > .wp-block-heading.has-text-align-center > em",
-              ".is-style-default.wp-block-paragraph.has-text-align-center"
+              "strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -1580,11 +1580,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 21,
+            "nodes": 23,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              ".has-text-align-left.h5",
-              ".has-text-align-left.wp-block-paragraph"
+              ".kt-inside-inner-col > .has-large-font-size.wp-block-paragraph > strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -1656,11 +1656,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 5,
+            "nodes": 7,
             "firstTargets": [
               "#cmplz-message-1-optout",
-              "a[aria-label=\"Home\"]",
-              "a[href$=\"lowry/\"]"
+              "strong",
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
