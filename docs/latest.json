@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-21T11:32:57.205Z",
+  "siteGenerated": "2026-09-28T12:23:46.714Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-cccs.edu",
   "report": {
-    "generated": "2026-09-21T11:32:56.588Z",
+    "generated": "2026-09-28T12:23:45.794Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -596,11 +596,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 6,
+            "nodes": 7,
             "firstTargets": [
+              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]",
-              "a[aria-label=\"Home\"]"
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -634,11 +634,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 6,
+            "nodes": 7,
             "firstTargets": [
+              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]",
-              "a[aria-label=\"Home\"]"
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -672,11 +672,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 8,
+            "nodes": 9,
             "firstTargets": [
+              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]",
-              ".wp-block-cccs-header > p"
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -710,11 +710,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 22,
+            "nodes": 23,
             "firstTargets": [
+              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]",
-              ".wp-block-cccs-quote:nth-child(6) > .wp-block-columns.is-layout-flex > .wp-block-column.is-layout-flow > .wp-block-cccs-quote__attribution > strong"
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -748,11 +748,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 22,
+            "nodes": 23,
             "firstTargets": [
+              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]",
-              ".wp-block-cccs-quote:nth-child(5) > .wp-block-columns.is-layout-flex > .wp-block-column.is-layout-flow > .wp-block-cccs-quote__attribution > strong"
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -786,11 +786,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 11,
+            "nodes": 12,
             "firstTargets": [
+              "#cmplz-message-1-optout",
               ".has-text-align-center.has-large-font-size.wp-block-paragraph > strong",
-              "a[data-type=\"strategic_plan\"]",
-              ".wp-block-cccs-header > p"
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -824,11 +824,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 12,
+            "nodes": 13,
             "firstTargets": [
+              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]",
-              ".wp-block-cccs-header > p"
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -862,11 +862,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 19,
+            "nodes": 20,
             "firstTargets": [
+              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]",
-              "a[data-id=\"51188\"]"
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -900,11 +900,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 6,
+            "nodes": 7,
             "firstTargets": [
+              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]",
-              "a[aria-label=\"Home\"]"
+              "a[data-type=\"strategic_plan\"]"
             ]
           },
           {
@@ -1361,11 +1361,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
