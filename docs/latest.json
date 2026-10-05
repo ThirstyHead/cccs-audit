@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-28T12:23:46.714Z",
+  "siteGenerated": "2026-10-05T13:03:46.861Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-cccs.edu",
   "report": {
-    "generated": "2026-09-28T12:23:45.794Z",
+    "generated": "2026-10-05T13:03:46.069Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -26,11 +26,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 31,
+            "nodes": 30,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "h1"
             ]
           },
           {
@@ -64,11 +64,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 14,
+            "nodes": 13,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-header > p"
             ]
           },
           {
@@ -102,11 +102,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 28,
+            "nodes": 27,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".bg-gradient.wp-block-cccs-cover-feature.alignfull:nth-child(7) > .wp-block-cccs-cover-feature__content.is-layout-flow.wp-block-block > .wp-block-group-is-layout-constrained.wp-block-group.is-layout-constrained > .h3.wp-block-heading.has-text-align-center"
             ]
           },
           {
@@ -178,11 +178,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size.has-text-align-center.wp-block-paragraph > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -216,11 +216,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 8,
+            "nodes": 7,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[rel=\"noreferrer noopener\"]"
             ]
           },
           {
@@ -254,11 +254,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -292,11 +292,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 12,
+            "nodes": 11,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size.has-text-align-center.wp-block-paragraph > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-quote__attribution > strong"
             ]
           },
           {
@@ -330,11 +330,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 12,
+            "nodes": 11,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center.has-large-font-size.wp-block-paragraph > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".has-white-color"
             ]
           },
           {
@@ -368,11 +368,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -406,11 +406,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 15,
+            "nodes": 14,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".alignment-right.wp-block-cccs-core-content-feature:nth-child(6) > .wp-block-group > p"
             ]
           },
           {
@@ -444,11 +444,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 12,
+            "nodes": 11,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "h1"
             ]
           },
           {
@@ -482,11 +482,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 20,
+            "nodes": 19,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-quote__attribution > strong"
             ]
           },
           {
@@ -520,11 +520,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -558,11 +558,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -596,11 +596,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -634,11 +634,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -672,11 +672,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 9,
+            "nodes": 8,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-header > p"
             ]
           },
           {
@@ -710,11 +710,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 23,
+            "nodes": 22,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-quote:nth-child(6) > .wp-block-columns.is-layout-flex > .wp-block-column.is-layout-flow > .wp-block-cccs-quote__attribution > strong"
             ]
           },
           {
@@ -748,11 +748,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 23,
+            "nodes": 22,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-quote:nth-child(5) > .wp-block-columns.is-layout-flex > .wp-block-column.is-layout-flow > .wp-block-cccs-quote__attribution > strong"
             ]
           },
           {
@@ -786,11 +786,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 12,
+            "nodes": 11,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center.has-large-font-size.wp-block-paragraph > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-header > p"
             ]
           },
           {
@@ -824,11 +824,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 13,
+            "nodes": 12,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-header > p"
             ]
           },
           {
@@ -862,11 +862,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 20,
+            "nodes": 19,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[data-id=\"51188\"]"
             ]
           },
           {
@@ -900,11 +900,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -938,11 +938,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 18,
+            "nodes": 17,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".h3"
             ]
           },
           {
@@ -976,11 +976,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -1014,11 +1014,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -1052,11 +1052,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 15,
+            "nodes": 14,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "h1"
             ]
           },
           {
@@ -1171,11 +1171,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 19,
+            "nodes": 18,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".breadcrumbs > li > a[href$=\"cccs.edu/\"]"
             ]
           },
           {
@@ -1222,11 +1222,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 11,
+            "nodes": 10,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "h1"
             ]
           }
         ]
@@ -1247,11 +1247,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 20,
+            "nodes": 19,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-header > p"
             ]
           },
           {
@@ -1285,11 +1285,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -1323,11 +1323,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 15,
+            "nodes": 14,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-header > p"
             ]
           },
           {
@@ -1399,11 +1399,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 12,
+            "nodes": 11,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-header > p"
             ]
           },
           {
@@ -1437,11 +1437,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 8,
+            "nodes": 7,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-element-button.wp-block-button__link[href$=\"our-colleges/\"]"
             ]
           },
           {
@@ -1504,11 +1504,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 24,
+            "nodes": 23,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".bg-gradient.wp-block-cccs-cover-feature.alignfull:nth-child(4) > .wp-block-cccs-cover-feature__content.is-layout-flow.alignwide > .wp-block-heading.has-text-align-center > em"
             ]
           },
           {
@@ -1542,11 +1542,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -1580,11 +1580,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 23,
+            "nodes": 22,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".kt-inside-inner-col > .has-large-font-size.wp-block-paragraph > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".has-text-align-left.h5"
             ]
           },
           {
@@ -1618,11 +1618,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 18,
+            "nodes": 17,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size.has-text-align-center.wp-block-paragraph > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "em"
             ]
           },
           {
@@ -1656,11 +1656,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -1694,11 +1694,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -1732,11 +1732,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 13,
+            "nodes": 12,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-id=\"55488\"]"
+              "a[data-id=\"55488\"]",
+              "h1"
             ]
           },
           {
@@ -1783,11 +1783,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 22,
+            "nodes": 21,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-header > p"
             ]
           },
           {
@@ -1821,11 +1821,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               "strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -1859,11 +1859,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 12,
+            "nodes": 11,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".h4"
             ]
           },
           {
@@ -1897,11 +1897,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -1935,11 +1935,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 8,
+            "nodes": 7,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-element-button.wp-block-button__link[rel=\"noopener noreferrer nofollow\"]"
             ]
           },
           {
@@ -2016,11 +2016,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 7,
+            "nodes": 6,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-text-align-center > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              "a[aria-label=\"Home\"]"
             ]
           },
           {
@@ -2054,11 +2054,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 32,
+            "nodes": 31,
             "firstTargets": [
-              "#cmplz-message-1-optout",
               ".has-large-font-size > strong",
-              "a[data-type=\"strategic_plan\"]"
+              "a[data-type=\"strategic_plan\"]",
+              ".wp-block-cccs-header > p"
             ]
           },
           {
